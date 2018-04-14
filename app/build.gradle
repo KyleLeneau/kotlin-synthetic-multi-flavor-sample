@@ -25,17 +25,14 @@ android {
         development {
             dimension "build_type"
         }
-
         alpha {
             dimension "build_type"
             applicationIdSuffix '.alpha'
         }
-
         beta {
             dimension "build_type"
             applicationIdSuffix '.beta'
         }
-
         production {
             dimension "build_type"
         }
